@@ -1,0 +1,297 @@
+body{
+      padding: 0%;
+      margin: 0;
+      font-family:'Lato';
+}
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+.navbar{
+  background-color: rgba(14, 20, 26, 0.747);
+}
+.navbar-brand{
+    font-family: 'Aleo';
+    font-size: 18px;
+    color: rgb(253, 53, 53) !important; 
+
+}
+.nav-link{
+      font-size: 20px;
+      margin: 15px;
+      color: rgb(251, 253, 253) !important;
+      font-family: 'Roboto Condensed';
+}
+.nav-link:hover{
+       color: #00E8E8 !important;
+}
+.active .nav-link{
+      color:#00E8E8 !important;
+}
+.menu-right-btn{
+      padding: 13px 46px;
+      margin-right: 4%;
+      color: white;
+      background-color: transparent;
+      transition: all 300ms ease-in;
+}
+.menu-right-btn:hover{
+      color: white;
+      background-color: #00E8E8;
+}
+.site-content{
+      background-image: url('boy-with-laptop2.jpg');
+      background-attachment: fixed;
+      background-size: cover;
+}
+
+.site-title{
+      text-align: justify;
+      color: rgb(255, 250, 250);
+      font-family: 'Righteous';
+}
+.site-desc{
+  text-align: center;
+  color: white;
+  font-family: 'Righteous';
+}
+.site-title{
+      text-align: center;
+      margin-top: 30%;
+      margin-bottom: 6%;
+      font-size: 60px; 
+}
+.site-desc{
+      font-size: 30px;
+}
+.site-btn1{
+    margin-left: 30%;
+    background-color: rgb(56, 157, 240);
+    color: white;
+}
+.site-btn2{
+      text-align: center;
+      background-color: white;
+}
+.site-btn1, .site-btn2{
+      margin-top: 5%;
+      margin-bottom: 40%;
+}
+
+  /* section-1 */
+.section-1 .heading-1{
+      margin-top: 8%;
+}
+.section-1 .heading-2{
+      margin-bottom: 5%;
+      font-size: 39px;
+}
+.section-1 .para-1{
+      width: 60%;
+      margin-left: 20%;
+      margin-bottom: 5%;
+      font-size: 20px;
+}
+.section-1 .card-text .para-1{
+      color: rgba(0, 0, 0, 0.59);
+}
+.section-1{
+      margin-bottom: 8%;
+}
+
+/** animation **/
+
+.animated-text{
+      color: #a30f2f; 
+      top: 50%;
+      left: 50%;
+      background: #fff;
+      padding: 0 40px;
+      height: 60px;
+      overflow: hidden;
+      margin-bottom: 8%;
+}
+.display{
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 22px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      line-height: 60px;
+}
+.display:first-child{
+      animation: anim 12s infinite;
+}
+ @keyframes anim {
+       0%{
+             margin-top: 0;
+       }
+       16%{
+            margin-top: -60px;
+      }
+      33%{
+            margin-top: -120px;
+      }
+      50%{
+            margin-top: -180px;
+      }
+      66%{
+            margin-top: -60px;
+      }
+      82%{
+            margin-top: 0;
+      }
+      
+}
+ 
+.card{
+      width:20rem;
+      margin: 0 auto;
+      margin-bottom: 2%;
+}
+/* gallery */
+.content{
+      width: 1080px;
+      height: 1000px;
+      padding-top: 2px;
+      margin:0 auto;
+      position:relative;
+      font-family: 'Righteous';
+}
+.content img{
+      width:100%;
+      height:1000px;
+      position:absolute;
+    
+}
+ .content>.btn{
+      position:absolute;
+      width:50px;
+      height:50px;
+      border:none;
+      border-radius:25px;
+      top:400px;
+      background:black;
+      color:white;
+      font-size:20px;
+}
+    .content>#btn1:hover{
+          box-shadow: 10px 0px 20px 0px black;
+}
+      
+    .content>#btn2:hover{
+          box-shadow: -10px 0px 20px 0px black;
+}
+    
+    .content>#btn2{
+      position:relative;
+      float:right;
+}
+
+  /* section 2 */ 
+
+.section-2 .container-fluid{
+      background-image: url('background-01.jpg');
+      background-size:cover;
+      background-attachment: fixed;
+      margin-top: 3%;
+}
+
+.section-2 .heading-1{
+      margin-top: 20%;
+      margin-bottom: 4%;
+      font-family: 'Righteous';
+      width:80%;
+      color: whitesmoke;
+}
+
+.section-2 .para{
+      width:80%;
+      font-family: "ubuntu";
+      color: whitesmoke;
+      margin-bottom: 7%;
+  }
+.section-2 .btn{
+      margin-bottom: 15%;
+      width: 30%;
+      padding: 2% 5%;
+}
+
+  /* section-3 */
+.section-3{
+      margin-top: 6%;
+}
+.section-3 i{
+      color: #00E8E8;
+  }
+.section-3 p{
+      color: rgba(0, 0, 0, 0.59);
+}
+
+  /* Section-4 */
+.section-4{
+       margin-top: 8%;
+}
+
+.section-4 .row .col-md-7, .col-md-5{
+      margin-top: 10%;
+      margin-bottom: 10%;
+}
+.section-4 a{
+      color: lightseagreen;
+      font-size: 40px;
+      text-decoration: none;
+}
+.section-4 .para-1{
+      color: white;
+      font-family:'Roboto Condensed';
+      margin-top: 7%;
+      font-size: 23px;
+}
+  /* footer */
+.social i{
+      color:#EF5651;
+      font-size: 20px;
+}
+
+@media screen and (max-width: 768px){
+    .section-1 .card{
+        width:14rem
+    }
+    .section-4 .col-md-7 img{
+        width:350px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .site-content .site-title{
+        font-size: 30px;
+        padding-left: 15%;
+    }
+    .site-content .site-btn2{
+        display:none;
+    }
+
+    .site-content .site-btn1{
+        margin-left:15%;
+    }
+    .section-1 .heading-1 , .section1 .heading-2{
+        font-size: 25px;
+    }
+
+    section-1 .col-md-4{
+        padding:5%;
+        margin-left:8%;
+    }
+    .section-1 .card{
+        width:15rem;
+    
+    }
+    .section-4 .col-md-5{
+        padding: 0% 15%;
+    }
+    footer input[type="button"]{
+        margin-top:5%;
+
+    }
+}
+  
