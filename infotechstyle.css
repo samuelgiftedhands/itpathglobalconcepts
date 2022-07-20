@@ -23,10 +23,10 @@ body{
       font-family: 'Roboto Condensed';
 }
 .nav-link:hover{
-       color: #00E8E8 !important;
+       color: #00d9e8 !important;
 }
 .active .nav-link{
-      color:#00E8E8 !important;
+      color:#00d9e8 !important;
 }
 .menu-right-btn{
       padding: 13px 46px;
@@ -40,7 +40,7 @@ body{
       background-color: #00E8E8;
 }
 .site-content{
-      background-image: url('boy-with-laptop2.jpg');
+      background-image: url('images/boy-with-laptop2.jpg');
       background-attachment: fixed;
       background-size: cover;
 }
@@ -114,7 +114,7 @@ body{
 .display{
       text-transform: uppercase;
       text-align: center;
-      font-size: 22px;
+      font-size: 42px;
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
       line-height: 60px;
 }
@@ -190,7 +190,7 @@ body{
   /* section 2 */ 
 
 .section-2 .container-fluid{
-      background-image: url('background-01.jpg');
+      background-image: url('images/background-01.jpg');
       background-size:cover;
       background-attachment: fixed;
       margin-top: 3%;
@@ -249,10 +249,12 @@ body{
 }
   /* footer */
 .social i{
-      color:#EF5651;
+      color:#080531;
       font-size: 20px;
 }
-
+.social a{
+      text-decoration: none;
+}
 @media screen and (max-width: 768px){
     .section-1 .card{
         width:14rem
